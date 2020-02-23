@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebc392fa346c278488c4f4e503e9bd4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InputButton: 
   RotationSpeed: 1
   RotationLimit: 0
 --- !u!1 &7581549087744049311
@@ -57,7 +58,7 @@ GameObject:
   - component: {fileID: 7581549087744049307}
   - component: {fileID: 7581549087744049306}
   - component: {fileID: 7581549087744049305}
-  - component: {fileID: 7581549087744049304}
+  - component: {fileID: 6241938289567135285}
   m_Layer: 0
   m_Name: Box
   m_TagString: Untagged
@@ -125,8 +126,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &7581549087744049304
-BoxCollider:
+--- !u!136 &6241938289567135285
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -135,6 +136,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Radius: 0.8
+  m_Height: 1.15
+  m_Direction: 0
   m_Center: {x: 0, y: 0, z: 0}
