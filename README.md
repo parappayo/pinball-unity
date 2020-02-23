@@ -23,3 +23,4 @@ Many physical quantities in Unity3d are represented as single precision floating
 * [Pinball Flippers - Unity Forums Thread](https://forum.unity.com/threads/pinball-flippers-swatting-objects-using-physics.220281/)
 * [Dimensions of Standard Pinball Flippers - Reddit Thread](https://www.reddit.com/r/pinball/comments/3j1c5x/dimensions_of_standard_pinball_flippers/)
 * [Common Angular Extents for Flippers - Reddit Thread](https://www.reddit.com/r/pinball/comments/3jc29f/what_are_the_most_common_angular_extents_used_for/)
+* [Hyperspace Pinball Physics Setup for Unity 5](http://www.gamieon.com/devblog/post/4/my-unity-5-pinball-physics-setup)
